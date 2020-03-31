@@ -1,0 +1,32 @@
+name: TowerOfPowers
+main: me.alexbanper.project.top.TowerPowerMain
+version: 1.0
+author: AlexBanPer
+commands:
+  createarena:
+    description: Create arena 
+  setarenaspawn:
+    description: Set Spawn point
+  setwall:
+    description: Set wall team
+  settower:
+    description: Set tower for team
+  removearena:
+    description: Remove arena from config
+  setarea:
+    description: set area for teams
+  setcore:
+    description: Set core area
+  endgame:
+    description: Stop the current match
+  start:
+    description: Start a match
+  join:
+    description: joins arena
+    usage: /<command> [id]
+  remove:
+    description: removes arena
+    usage: /<command> [id]
+  leave:
+    description: leaves arena
+    usage: /<command>
